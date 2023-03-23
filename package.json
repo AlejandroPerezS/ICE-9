@@ -1,0 +1,26 @@
+{
+  "name": "ice-9",
+  "version": "1.0.0",
+  "description": "In class Excercice 9 Using MVC and MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejandroPerezS/ice-9.git"
+  },
+  "author": "Alejandro Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlejandroPerezS/ice-9/issues"
+  },
+  "homepage": "https://github.com/AlejandroPerezS/ice-9#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.4",
+    "nodemon": "^2.0.22"
+  }
+}
