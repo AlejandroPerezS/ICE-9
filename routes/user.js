@@ -9,6 +9,8 @@ const router = express.Router();
 
 // Set up a route for the home page and call the homeView function
 router.get('/', homeView);
+router.get('/planets', planetsView);
+router.get('/people', peopleView);
 
 // Uncomment the following lines to add routes for postView and aboutView functions
 //router.post('/',postView);

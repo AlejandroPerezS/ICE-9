@@ -14,6 +14,9 @@ app.engine('.hbs', exphbs.engine({defaultLayout: 'main', partialsDirectory: './v
 app.set('view engine', '.hbs'); // set the view engine to .hbs
 app.set('views','./views'); // set the views directory
 
+// routes
+app.use('/',require('./routes/user'))
+
 // get port from process.env file
 const PORT = process.env.PORT; 
 
